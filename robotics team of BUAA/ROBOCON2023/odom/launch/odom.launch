@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+<node name="odometer" pkg="odom" type="odom" output="screen" respawn="true"/>
+</launch>

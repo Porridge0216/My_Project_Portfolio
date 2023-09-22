@@ -1,0 +1,26 @@
+<launch>
+    <?ignore   
+    <param name="/use_sim_time" value="true" />
+    <node pkg="rosbag" type="play" name="rosbag_play" args="--clock  $(find ekf_pose_fusion)/bags/2023-02-10-03-27-43.bag  -l" />
+   ?>
+
+    <!-- <node pkg="tf" type="static_transform_publisher" name="m2o" args="0.0 0.0 0.0 0.0 0.0 0.0 /map /odom 40" /> -->
+
+    <node pkg="ekf_pose_fusion" type="ekf_pose_fusion" name="ekf_pose_fusion" output="screen" respawn="true">
+        <param name="wo_topic" value="odom" />
+        <param name="predict_test" value="false"/>
+        <param name="initPoseX" value="5.74" />
+        <param name="initPoseY" value="0.422" />
+        <param name="initPoseTheta" value="0" />
+        <param name="use_lo" value="true" />
+        <param name="lo_topic" value="vo"/>
+        <param name="use_true_pose" value="false" />
+        <param name="broadcastTF" value="true"/>
+        <param name="compensation_topic" value="compensation"/>
+    </node>
+
+    <!-- -delay 0 -clock -r 1.2 -->
+
+
+
+</launch>

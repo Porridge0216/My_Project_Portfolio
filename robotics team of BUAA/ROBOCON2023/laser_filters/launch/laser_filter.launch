@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="laser_filters" type="scan_to_scan_filter_chain" name="laser_filter" respawn="true">
+        <rosparam command="load" file="$(find laser_filters)/params/filters_setting.yaml" />
+        <param name="overturnMod" value="true" />
+        <!-- <remap from="scan" to="base_scan" /> -->
+    </node>
+</launch>

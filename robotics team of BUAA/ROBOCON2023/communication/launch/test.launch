@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+<rosparam file="$(find communication)/yaml/line.yml" command="load"/>
+
+<node name="controller" pkg="communication" type="controller"/>
+<node name="bridge" pkg="communication" type="bridge"/>
+<!-- <node name="trans" pkg="communication" type="trans_scm"/> -->
+
+</launch>

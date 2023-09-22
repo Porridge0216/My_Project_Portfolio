@@ -1,0 +1,27 @@
+to_ip: 10.42.0.20
+from_ip: 10.42.0.4
+image_to_hton: 7777
+c_to_hton: 1348
+c_from_hton: 6666
+b_to_hton: 1347
+b_from_hton: 8888
+
+odom_init_x: 6
+odom_init_y: 2
+odom_init_yaw: 0
+
+Odom_topic: odom
+Imu_topic: imu_data
+lidar_odom_topic: vo
+
+findblock_topic: findblock
+findball_topic: findball
+blockpos_topic: blockpos
+ballpos_topic: ballpos
+image_topic: /rgb/image_raw
+
+depth: 1
+fx: 251
+fy: 251
+cx: 1024
+cy: 766

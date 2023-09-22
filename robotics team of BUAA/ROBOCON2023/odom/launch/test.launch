@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+<rosparam file="$(find laser_line_extraction)/yaml/line.yml" command="load"/>
+<node pkg="tf" type="static_transform_publisher" name="laser_base_broadcaster" args="0 0.166 0 1.57 0 0 base_link laser_link 10" />
+<node name="odometer" pkg="odom" type="odom"/>
+<node name="bridge" pkg="communication" type="bridge"/>
+<node name="trans" pkg="communication" type="trans_scm"/>
+<node name="urg_node" pkg="urg_node" type="urg_node" args="_ip_address:=192.168.77.10" ns="hokuyo"/>
+
+<node name="line_extractor" pkg="laser_line_extraction" type="line_extraction_node" output="screen"/>
+
+</launch>

@@ -1,0 +1,18 @@
+to_ip: 192.168.3.19
+from_ip: 10.42.0.1
+/robot_ip: 10.42.0.2
+/controller_ip: 10.42.0.40
+/from_ip: 10.42.0.1
+b_to_hton: 7777
+b_from_hton: 7777
+/robot_to_hton: 1347
+/robot_from_hton: 7777
+/controller_to_hton: 6666
+/controller_from_hton: 6666
+
+/port2_sub_topic: /rings_detect/result
+/port3_pub_topic: /need_shoot_aid
+img_angle_topic: /head_angle
+pos_topic: /compensation
+shoot_aid_srv: /shoot_aid
+shoot_aid_topic: /need_shoot_aid

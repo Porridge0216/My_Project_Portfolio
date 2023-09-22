@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+<rosparam file="$(find communication)/yaml/com.yml" command="load"/>
+
+<node name="communicator" pkg="communication" type="communicator_node" output="screen" respawn="true"/>
+<!-- <node name="bridge" pkg="communication" type="bridge" respawn="true"/> -->
+<node name="trans" pkg="communication" type="trans_scm" respawn="true"/>
+<!--<node name="base2laser" pkg="tf" type="static_transform_publisher" args="0.2036 -0.1196 0 0.0191 0 0 base_footprint laser 50" />
+<include file="$(find laser_filters)/launch/laser_filter.launch"/>
+<include file="$(find odom)/launch/odom.launch"/>
+
+<include file="$(find pavo2_ros)/launch/pavo2_scan.launch"/>-->
+</launch>

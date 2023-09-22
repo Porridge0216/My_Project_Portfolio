@@ -1,0 +1,16 @@
+.idea
+__pycache__
+.DS_Store
+*.zip
+*.rar
+
+python_implementation/calibration_tools/capture*/
+python_implementation/calibration_tools/graycode_pattern/
+python_implementation/calibration_tools/sample_data/
+python_implementation/calibration_tools/capture_old
+
+sketches
+calibimgs
+image_when_use
+single-shot-pro-cam-calib
+cmake-build-debug
