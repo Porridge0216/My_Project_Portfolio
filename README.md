@@ -92,7 +92,7 @@ These experiences, although not leading-edge research, have significantly enrich
 <img src="./images/d.jpg" width=75% />
 </div>
 
-## AI Program in NUS:
+## AI Program in NUS
 * [Seq2Seq population forecasting model](./AI%20program%20in%20NUS/): I led the team members to apply the Seq2Seq model to the population prediction assignment, not only in the basic regression model required by the professor. We won the winning team of the NUS Artificial Intelligence and Machine Learning Summer Course, and praised by Prof. Mehual Motani.
 
 <div align="center">
@@ -100,7 +100,7 @@ These experiences, although not leading-edge research, have significantly enrich
 <img src="images/NUS2.jpg" width=25% />
 </div>
 
-## In-class Experiments:
+## In-class Experiments
 I take every experiment in class seriously, cherish these practical opportunities, and always exceed the teacher's tasks. This seriousness is also reflected in my grades.
 
 * [Comparison experiments between CNN and Dense](./in-class%20experiments/Comparison%20experiments%20between%20CNN%20and%20Dense/README.md): I was inspired by Professor Li Mu's *Drive into Deep Learning* and personally constructed various classic neural networks for the MNIST and Fashion MNIST datasets. I compared their performance and parameter differences. To gain a better understanding of how convolutional neural networks work, I visualized the results of each layer of LeNet. Below are some illustrative figures from my experimental report.
