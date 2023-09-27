@@ -44,7 +44,7 @@
 
 从上图可以看出，在这一批数据中的0,9,17号数据灰度总体偏高，10号数据的灰度总体偏低。而其他的数据灰度大致处在平均水平。
 
-<div style="text-align:center"><img src="imgs/3-1.png" style="width:50%"/><img src="3-2.png" style="width:50%"/></div>
+<div style="text-align:center"><img src="imgs/3-1.png" style="width:50%"/><img src="imgs/3-2.png" style="width:50%"/></div>
 <center>图3 1号和10号数据的直方图以及统计信息 </center>
 <br/>
 从直方图也可以看出，输入数据存在灰度分布不均匀的情况。我推测这是导致模型表现不佳的原因。所以我对输入数据进行了灰度一致性处理，具体方法就是判断出灰度分布明显偏出平均水平的数据，对其他数据做统计，然后以此为依据，对所有数据做归一化处理。
