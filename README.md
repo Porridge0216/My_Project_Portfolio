@@ -30,7 +30,7 @@ These experiences, although not leading-edge research, have significantly enrich
 
 ## Robotics Team of BUAA
 
-* [Auto-shoot Algorithm Based on Deep Learning for Racing Robot in CURC ROBOCON 2023](./robotics%20team%20of%20BUAA/ROBOCON2023/): Information for target identification and encoding is obtained through the fusion of data from laser radar, wheel odometry, and an Inertial Measurement Unit (IMU) serving as a priori localization. Target identification relies on a well-trained deep learning model, and with the integration of localization data, precise angular deviations are computed. These deviations are subsequently sent to the motor driver chip, allowing for precise and automated shooting. Our robot's exceptional performance at the 2023 CURC ROBOCON competition served as a validation of the algorithm's precision and robustness.
+* [Auto-shoot Algorithm Based on Deep Learning for Racing Robot in CURC ROBOCON 2023](./robotics%20team%20of%20BUAA/ROBOCON2023/): Information for target identification and encoding is obtained through the fusion of data from laser radar, wheel odometry, and an Inertial Measurement Unit (IMU) serving as a priori localization. Target identification relies on a well-trained deep learning model with data augmentation. With the integration of localization data, precise angular deviations are computed. These deviations are subsequently sent to the motor driver chip, allowing for precise and automated shooting. Our robot's exceptional performance at the 2023 CURC ROBOCON competition served as a validation of the algorithm's precision and robustness.
 
 [Related Video](https://www.bilibili.com/video/BV1mX4y1Y7Pd/?share_source=copy_web&vd_source=b58b58ccf1b63dc656c22a30535762cc)
 
@@ -100,7 +100,7 @@ These experiences, although not leading-edge research, have significantly enrich
 <img src="images/NUS2.jpg" width=25% />
 </div>
 
-## In-class Experiments
+## Course Projects
 I take every experiment in class seriously, cherish these practical opportunities, and always exceed the teacher's tasks. This seriousness is also reflected in my grades.
 
 * [Comparison experiments between CNN and Dense](./in-class%20experiments/Comparison%20experiments%20between%20CNN%20and%20Dense/README.md): I was inspired by Professor Li Mu's *Drive into Deep Learning* and personally constructed various classic neural networks for the MNIST and Fashion MNIST datasets. I compared their performance and parameter differences. To gain a better understanding of how convolutional neural networks work, I visualized the results of each layer of LeNet. Below are some illustrative figures from my experimental report.
