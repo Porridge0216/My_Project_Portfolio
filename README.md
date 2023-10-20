@@ -65,6 +65,7 @@ These experiences, although not leading-edge research, have significantly enrich
 
 * [An Aerial–Aquatic Hitchhiking Robot with Remora-Inspired Tactile Sensors and Thrust Vectoring Units](https://onlinelibrary.wiley.com/doi/10.1002/aisy.202300381): My primary responsibilities include debugging flight control systems, providing assistance with various experiments, and working on the deployment of SLAM (Simultaneous Localization and Mapping) and automatic navigation algorithms for the next generation of robots.
 
+[Related Video](https://www.bilibili.com/video/BV1g84y1d7YH/?vd_source=8d076f754e2a745bbc3e40e91e1024e0)
 
 <div align="center">
 <img src="images/drone1.jpg" width=40% />
