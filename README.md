@@ -138,7 +138,9 @@ The above two are medical image segmentation experiments I conducted. I reproduc
 <img src="images/eeg2.png" width=80% />
 </div>
 
-* [Robot path planning experiments](./in-class%20experiments/Robot%20path%20planning%20experiments/README.md)   [Related Video](https://www.bilibili.com/video/BV1Us4y1g7rq/?share_source=copy_web&vd_source=b58b58ccf1b63dc656c22a30535762cc): I explored the differences in various heuristic functions in robot path planning tasks and summarized my findings in an experimental report. The visual process of the experiment has been uploaded to Bilibili.
+* [Robot path planning experiments](./in-class%20experiments/Robot%20path%20planning%20experiments/README.md)  
+
+ [Related Video](https://www.bilibili.com/video/BV1Us4y1g7rq/?share_source=copy_web&vd_source=b58b58ccf1b63dc656c22a30535762cc): I explored the differences in various heuristic functions in robot path planning tasks and summarized my findings in an experimental report. The visual process of the experiment has been uploaded to Bilibili.
 
 <div align="center">
 <img src="images/path.jpg" width=50% />
