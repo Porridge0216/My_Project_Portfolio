@@ -122,7 +122,7 @@ I take every experiment in class seriously, cherish these practical opportunitie
 * (New💥)PointNet/PointNet++ point cloud segmentation: I led the team to dive into the architecture of PointNet and PointNet++. Through the common BackBone with different heads, the classification and segmentation tasks of point clouds are realized. I deeply explored the properties of T-Net, and tried to change the structure of T-Net, adding residual connections and so on to obtain different performance.
 
 <div align="center">
-<img src="images/pn3.jpg" width=80% />
+<img src="images/pn3.png" width=80% />
 </div>
 <div align="center">
 <img src="images/pn1.jpg" width=40% />
