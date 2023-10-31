@@ -5,8 +5,9 @@ This portfolio showcases a selection of projects I undertook during my undergrad
 These experiences, although not leading-edge research, have significantly enriched my academic journey and helped me identify my passions. I firmly believe that this valuable practical experience will greatly assist me in my future scientific research endeavors.
 
 ## Internship
-
+* (New💥) A national patent for invention is pending.
 * [Auto Keystone Correction Projector with Structured Light Pair](./internship/auto%20keystone%20correction%20projector%20with%20camera/README.md): The calibration process in this study involves local homography and Gray code, while the correction process is achieved by triangulating keypoint depths and subsequently fitting the projection plane. Concurrently, an accelerometer measures the direction of gravity. The correlation between the key points on the wall and those on the projection screen is employed to compute the homography matrix, which is then used to reverse-engineer the actual display area. The primary focus of this research is to obtain the largest and sharpest inner rectangle within an arbitrary convex projected quadrilateral. In the future, an algorithm for automatically avoiding obstacles on the wall will be developed to enhance the user experience.
+
 * [Auto Keystone Correction Projector with TOF](./internship/auto%20keystone%20correction%20projector%20with%20TOF/): Plane detection is made possible using the VL53L5CX multi-point Time-of-Flight (TOF) sensor from STMicroelectronics. Data fluctuations are minimized through a filtering process, and robustness is further improved by introducing the Random Sample Consensus (RANSAC) algorithm. The projection mechanism of ultrashort focus projectors is described using an equivalent ideal pinhole model. In other aspects, this study follows a methodology similar to previous research.
 
 <div align="center">
@@ -35,16 +36,29 @@ These experiences, although not leading-edge research, have significantly enrich
 [Related Video](https://www.bilibili.com/video/BV1mX4y1Y7Pd/?share_source=copy_web&vd_source=b58b58ccf1b63dc656c22a30535762cc)
 
 <div align="center">
-<img src="./images/robocon.jpg" width=70% />
-</div>
+<img src="./images/RC2023_field.jpg" width=45% /><img src="./images/robocon.jpg" width=45% />
+</div>     
+<div align="center">
+<img src="./images/elephant.jpg" width=45% /><img src="./images/rabbit.jpg" width=35% />
+</div>       
+
+
+* [(New💥) Decision-making models for autonomous robots for ROBOCON 2024](./robotics%20team%20of%20BUAA/ROBOCON2024/): The topic for ROBOCON2024 requires autonomous robots to achieve a significant victory in Zone 3. The victory condition is to occupy three granaries. Occupying a granary is achieved when at least two of your team's balls are present in the granary, with your team's ball at the top. This places a high demand on the autonomous decision-making algorithm for robots. To address this, I have designed an algorithm based on the minimax search with alpha-beta pruning, incorporating a simulation interface. What sets this algorithm apart from traditional turn-based game tree approaches is that it allows the robot to choose to skip its own turn and wait for the opponent to act. This approach is more in line with the context of this competition and will give our autonomous robots greater flexibility.
+
+<div align="center">
+<img src="./images/RC2024_field.jpg" width=75% />
+</div>      
+
+<div align="center">
+<img src="./images/RC2024_1.gif" width=45% />
+<img src="./images/RC2024_2.gif" width=45% />
+</div>      
 
 * Target trajectory analysis with stereo camera : To reduce the computational cost of the deep learning component, a sliding window is introduced, leveraging recognition results from the previous frame. The principles of triangulation are applied to calculate the three-dimensional coordinates of the target. Additionally, Kalman filtering is utilized to enhance data smoothness, predict missing identification information, and bolster overall system robustness.
 
 <div align="center">
 <img src="./images/stereo.gif" width=75% />
 </div>
-
-
 
 * [Team entry test](./robotics%20team%20of%20BUAA/training/README.md): Test I gave to prospective team members. It's a camera pose estimation task. In a scenario with known three-dimensional coordinates, we calculate the camera pose using the Perspective-n-Point (PNP) principle. This involves combining the corner detection results from the previous frame to establish correspondences between 2D points and 3D points. By continuously recognizing these points, we can trace and plot the camera's trajectory. I uploaded the demonstration video to the internet and received widespread attention and discussion.
 
@@ -58,12 +72,12 @@ These experiences, although not leading-edge research, have significantly enrich
 * Team trainning: This slide serves as a technical guide for new team members. It's designed to instruct newcomers on essential topics, including image processing, 3D vision, as well as providing a brief introduction to Linux and ROS.
 
 <div align="center">
-<img src="./images/trainning.jpg" width=80% />
+<img src="./images/trainning.jpg" width=55% /><img src="./images/rm.jpg" width=42% />
 </div>
 
 ## Soft Robotics Lab
 
-* [An Aerial–Aquatic Hitchhiking Robot with Remora-Inspired Tactile Sensors and Thrust Vectoring Units](https://onlinelibrary.wiley.com/doi/10.1002/aisy.202300381): My primary responsibilities include debugging flight control systems, providing assistance with various experiments, and working on the deployment of SLAM (Simultaneous Localization and Mapping) and automatic navigation algorithms for the next generation of robots.
+* [An Aerial–Aquatic Hitchhiking Robot with Remora-Inspired Tactile Sensors and Thrust Vectoring Units](https://onlinelibrary.wiley.com/doi/10.1002/aisy.202300381): My primary responsibilities include debugging flight control systems, providing assistance with various experiments, and working on the deployment of SLAM (Simultaneous Localization and Mapping) and automatic navigation algorithms for the next generation of robots. Our work is published in Advanced Intelligent Systems.
 
 [Related Video](https://www.bilibili.com/video/BV1g84y1d7YH/?vd_source=8d076f754e2a745bbc3e40e91e1024e0)
 
@@ -103,6 +117,24 @@ These experiences, although not leading-edge research, have significantly enrich
 
 ## Course Projects
 I take every experiment in class seriously, cherish these practical opportunities, and always exceed the teacher's tasks. This seriousness is also reflected in my grades.
+
+
+* (New💥)PointNet/PointNet++ point cloud segmentation: I led the team to dive into the architecture of PointNet and PointNet++. Through the common BackBone with different heads, the classification and segmentation tasks of point clouds are realized. I deeply explored the properties of T-Net, and tried to change the structure of T-Net, adding residual connections and so on to obtain different performance.
+
+<div align="center">
+<img src="images/pn3.jpg" width=80% />
+</div>
+<div align="center">
+<img src="images/pn1.jpg" width=40% />
+<img src="images/pn2.jpg" width=40% />
+</div>
+
+* [(New💥) Experiments on Eight-Puzzle graph search algorithms](./in-class%20experiments/8dig): BFS, DFS and A* search algorithms are used to solve the eight-digit game, and the differences in search strategies and performance are explored.
+
+<div align="center">
+<img src="images/bfs.jpg" width=40% />
+<img src="images/astar.jpg" width=40% />
+</div>
 
 * [Comparison experiments between CNN and Dense](./in-class%20experiments/Comparison%20experiments%20between%20CNN%20and%20Dense/README.md): I was inspired by Professor Li Mu's *Drive into Deep Learning* and personally constructed various classic neural networks for the MNIST and Fashion MNIST datasets. I compared their performance and parameter differences. To gain a better understanding of how convolutional neural networks work, I visualized the results of each layer of LeNet. Below are some illustrative figures from my experimental report.
 
@@ -159,6 +191,4 @@ The above two are medical image segmentation experiments I conducted. I reproduc
 <div align="center">
 <img src="./images/gmm.jpg" width=80% />
 </div>
-
-
 to be continued
