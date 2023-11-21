@@ -199,5 +199,35 @@ The above two are medical image segmentation experiments I conducted. I reproduc
 
 <div align="center">
 <img src="./images/gmm.jpg" width=80% />
+
 </div>
 to be continued
+
+# Gallery
+<div align="center">
+<img src="./gallery/1.jpeg" width=34% />
+<img src="./gallery/8.jpg" width=50.7% />
+</div>
+
+<div align="center">
+<img src="./gallery/2.jpg" width=40% />
+<img src="./gallery/3.jpg" width=40% />
+</div>
+
+
+
+<div align="center">
+<img src="./gallery/4.jpg" width=40% />
+<img src="./gallery/6.jpeg" width=40% />
+</div>
+
+<div align="center">
+<img src="./gallery/7.jpg" width=40% />
+<img src="./gallery/9.jpg" width=40% />
+</div>
+
+
+<div align="center">
+<img src="./gallery/5.jpeg" width=45% />
+<img src="./gallery/14.jpeg" width=36.6% />
+</div>
