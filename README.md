@@ -124,6 +124,17 @@ Zhou Hao, I think you're excellent, and you've got a rough idea of our project t
 <img src="images/NUS2.jpg" width=25% />
 </div>
 
+## Graduation Projects
+* [(Pending💥) SLAM and obstacle Avoidance for Uavs based on event cameras](./graduation%20project/)
+
+<div align="center">
+<img src="images/gp1.png" width=80% />
+</div>
+<div align="center">
+<img src="images/gp2.png" width=80% />
+</div>
+
+
 ## Course Projects
 I take every experiment in class seriously, cherish these practical opportunities, and always exceed the teacher's tasks. This seriousness is also reflected in my grades.
 
