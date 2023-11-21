@@ -17,13 +17,22 @@ These experiences, although not leading-edge research, have significantly enrich
 
 <div align="center">
 <img src="./images/camera1.gif" width=40% />
-
 <img src="./images/tof.gif" width=40% />
 </div>
 
-**Praise from the project manager:**
-*You have refreshed my attitude towards the post-00s.*
-*Introduce me to more students with good character like you, Zhang. I'll gather you all together as a team, you'll be the head.*
+<div align="center">
+<img src="./images/calib1.png" width=40% />
+<img src="./images/calib2.png" width=40% />
+</div>
+
+<div align="center">
+<img src="./images/calib3.jpg" width=80% />
+</div>
+
+
+>**Praise from the project manager:**
+You have refreshed my attitude towards the post-00s.
+Introduce me to more students with good character like you, Zhang. I'll gather you all together as a team, you'll be the head.
 
 <div align="center">
 <img src="./images/p.jpg" width=75% />
@@ -100,8 +109,8 @@ These experiences, although not leading-edge research, have significantly enrich
 <img src="./images/fastlio2.gif" width=80% />
 </div>
 
-**Praise from the doctoral students of the research group, after the first group meeting.**
-*Zhou Hao, I think you're excellent, and you've got a rough idea of our project today. Our team members are all hardworking, and we've been striving to do some interesting and innovative research. If you're interested in this project, I'd like to invite you to join us. Let's work together and aim to publish a high-quality paper.*
+>**Praise from the doctoral students of the research group, after the first group meeting.**
+Zhou Hao, I think you're excellent, and you've got a rough idea of our project today. Our team members are all hardworking, and we've been striving to do some interesting and innovative research. If you're interested in this project, I'd like to invite you to join us. Let's work together and aim to publish a high-quality paper.
 
 <div align="center">
 <img src="./images/d.jpg" width=75% />
